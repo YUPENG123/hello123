@@ -8,7 +8,10 @@
             "type": "shell",
             "command": "echo Hello",
             "problemMatcher": [],
-            "group": "build"
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
         },
         {
             "label": "build",
@@ -25,12 +28,20 @@
             "type": "shell",
             "command": "make clean",
             "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
         },
         {
             "label": "run",
             "type": "shell",
             "command":"${workspaceFolder}/a.out",
             "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
         }
     ]
 }
