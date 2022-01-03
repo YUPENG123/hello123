@@ -7,6 +7,7 @@ int main(int argc,char *argv[])
 	printf("Hello world!!\n");
     printf("a+b=%d\n",add(a,b));
     printf("Hello world!!\n");
+    printf("Hello");
     return (0);
 }
 
