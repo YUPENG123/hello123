@@ -1,2 +1,9 @@
 {
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/workspaces/hello123",
+            "binaryPath": "/workspaces/hello123/a.out",
+            "binaryArgs": []
+        }
+    ]
 }
